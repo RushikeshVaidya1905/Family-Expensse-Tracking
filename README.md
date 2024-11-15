@@ -3,13 +3,18 @@ This will track the Family Expense of each and every member.
 The Expense Tracking System is an application to efficiently track and manage family expenses. It allows for individual and family-level expense tracking, providing insights into category-wise expenses, individual contributions, and overall spending trends. The system is implemented using arrays of structures for storing and organizing data.
 
 Features
+
 --User Management
 AddUser():
+
 Add a new user, storing them in a sorted order based on their User ID.
+
 --Family Management
 CreateFamily():
+
 Create families with 1 to 4 members, calculate total monthly family income and expenses automatically.
 Update_or_delete_individual_Family_details():
+
 Update individual or family details.
 Deleting a single individual with only one member in the family automatically deletes the family.
 --Expense Management
