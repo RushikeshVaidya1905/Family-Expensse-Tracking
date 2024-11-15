@@ -16,11 +16,15 @@ Create families with 1 to 4 members, calculate total monthly family income and e
 Update_or_delete_individual_Family_details():
 
 Update individual or family details.
+
 Deleting a single individual with only one member in the family automatically deletes the family.
 --Expense Management
+
 AddExpense():
+
 Add expenses for users, categorized by Rent, Utility, Grocery, Stationary, or Leisure, and stored in sorted order by User ID and Expense ID.
 Update_delete_expense():
+
 Update or delete an existing expense, automatically recalculating all associated totals.
 --Expense Tracking and Analysis
 Get_total_expense():
